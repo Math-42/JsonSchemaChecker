@@ -1,0 +1,9 @@
+name: 'JSON schema compare'
+description: 'compare JSONs file to check if they have the same schema'
+
+on: [push]
+
+runs: 
+  using: 'node12'
+  main: 'dist/index.js'
+
